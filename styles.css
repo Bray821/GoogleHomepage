@@ -142,8 +142,9 @@ svg {
     padding-left:20px;
     padding-top:10px;
     padding-bottom:10px;
+   
     background: -moz-linear-gradient(top, #4387fd, #4683ea);
-    background: linear-gradient(top, #4387fd, #4683ea);
+    background: linear-gradient( #4387fd, #4683ea);
     border: 1px solid #4285f4;
     color:white;
     font-weight:bold;
@@ -154,6 +155,7 @@ footer {
     background:#f2f2f2;
     border: 1px solid #cccccc;
     border-bottom: transparent;
+    border-right: transparent;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
